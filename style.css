@@ -161,14 +161,72 @@ header {
 }
 
 
-/* Keatas batas aku update================================================== */
+/* ---- */
+
+.main4 {
+    color: #4fc8d1;
+    margin-top: 180px;
+}
+
+.main4 img {
+    border-radius: 30px;
+}
+
+.main4-kelebihan {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px 0px 50px 0px;
+}
+
+.kelebihan {
+    flex: auto;
+    width: 50%;
+    padding: 0 80px;
+}
+
+.kelebihan img {
+    position: relative;
+    padding: 10px;
+}
+
+.ket {
+    position: absolute;
+    width: 25%;
+}
+
+.rup {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.dest {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.lov {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.pro {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.main4 h2 {
+    color: #4fc8d1;
+    text-align: center;
+}
+
+
+/* ================================================== */
 
 
 /* bagian card */
 
 .bg {
     background: white;
-    height: 90vh;
 }
 
 .bg h1 {
@@ -177,6 +235,7 @@ header {
     font-size: 25px;
     margin-top: 10px;
     padding: 30;
+    color: #4fc8d1;
 }
 
 .myproject .container-projects {
@@ -272,6 +331,7 @@ header {
     font-size: 25px;
     margin-top: 10px;
     padding: 30;
+    color: #01909e;
 }
 
 .myproject-1 .container-projects-1 {
@@ -325,7 +385,6 @@ header {
     margin: 30%;
     margin-top: 10;
     border-radius: 20px;
-    position: relative;
 }
 
 .bg-2 h1 {
@@ -397,51 +456,40 @@ header {
     }
 }
 
-footer {
-    background: #284A6E;
-    height: auto;
-    width: 100%;
-    font-family: "sans-serif";
-    padding-top: 40px;
-    color: #ffffff;
+
+/* FOOTER */
+
+.footer1 {
+    background: #1c3361;
+    text-align: center;
 }
 
 .footer-content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+    padding: 30px 0px 50px 0px;
 }
 
 .footer-content h3 {
     font-size: 35px;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 30px;
+    font-weight: normal;
+    opacity: 0.9;
 }
 
 .footer-content p {
-    max-width: 500px;
-    margin: 20px auto;
+    max-width: 650px;
+    margin: 15px auto;
     line-height: 28px;
-    font-size: 20px;
+    font-size: 15px;
+    opacity: 0.9;
 }
 
 .sosialmedia {
-    list-style: none;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 16px 0px 48px 0px;
+    margin-right: 25px
 }
 
 .sosialmedia li {
     margin: 0px 10px;
-}
-
-.sosialmedia a {
-    text-decoration: none;
-    color: #fff;
 }
 
 .sosialmedia a i {
@@ -450,18 +498,23 @@ footer {
 }
 
 .sosialmedia a:hover i {
-    color: darkgrey;
+    color: #8ad9df;
 }
 
-.footer-bottom {
-    background: #01909e;
-    width: 100%;
-    padding: 20px 0;
+.footer2 {
+    background-color: #07183b;
     text-align: center;
 }
 
+.footer-bottom {
+    padding: 20px 0;
+    display: block;
+    height: 55px;
+}
+
 .footer-bottom p {
-    font-size: 17px;
+    font-size: 13px;
     word-spacing: 2px;
-    text-transform: capitalize;
+    margin: auto;
+    opacity: 0.5;
 }
